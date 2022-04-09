@@ -1,0 +1,35 @@
+.submit-box {
+    display: flex;
+    height: 23px;
+    align-items: center;
+    position: relative;
+}
+
+.submit-box p {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.message1 {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+
+.message2 {
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}
+
+.image-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+    transition-duration: .5s;
+}

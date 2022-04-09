@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Number Guessing Game</h1>
+    <h3>1부터 100까지 숫자를 맞춰보세요. 기회는 7번 입니다!</h3>
+    <div class="submit-box">
+        <p>Enter a guess: </p>
+        <form class="number-storagy">
+            <input 
+                type="text"
+                placeholder="Guess Number!"
+            />
+            <button>Submit guess</button>
+        </form>
+    </div>
+    <h3 class="message1"></h3>
+    <h3 class="message2"></h3>
+    <h3 class="message3"></h3>
+    <div class="image-box">
+        <img src="./IMG/성공.png" alt="" id="success" width="1000" class="hidden">
+        <img src="./IMG/실패.png" alt="" id="fail" width="1000" class="hidden">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
